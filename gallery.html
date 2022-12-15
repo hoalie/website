@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WEBSITE NAME::PAGE NAME</title>
+		<meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+		    <header>
+				<img src="img/cat-logo.png" alt="logo" height="200" width="107.5" class="img-fluid logo">
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="hmong.html">Hmong</a></li>
+					<li><a href="more.html">More</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h1>MY GALLERY</h1>
+				<h2>Gallery #1</h2>
+				<div class="gallery">
+				    <div class="preview">
+				        <img id="preview" src="img/draw-1.png" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+				    </div>
+
+				    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="img/draw-1.png" alt="black bat cat" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="img/draw-2.png" alt="white angel cat" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="img/draw-3.png" alt="sky blue flying cat" />
+				    </div>
+				</div>
+				<br>
+				<hr>
+				<h2>Gallery #2</h2>
+				<div class="gallery">
+				    <div class="preview">
+				        <img id="preview" src="img/flower-1.jfif" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+				    </div>
+
+				    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img1').src;" id="img1" src="img/flower-1.jfif" alt="flower-1" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img2').src;" id="img2" src="img/flower-2.jpg" alt="flower-2" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="img/flower-3.jpg" alt="flower-3" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="img/flower-4.jfif" alt="flower-4" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="img/flower-5.jpg" alt="flower-5" />
+				        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="img/flower-6.jpg" alt="flower-6" />
+				    </div>
+				</div>
+
+			</main>
+			<footer>
+				<h4> These are not my real contact information...</h4>
+				Copyright &copy; Goalie Her. All rights reserved.<br>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-3">
+							<i class="fa fa-envelope-open-o" aria-hidden="true"></i><a href="mailto:name@lastname.com"> Email Us</a>
+						</div>
+						<div class="col-sm-3">
+							<i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:8008675309">(800) 867-5309 Call Us</a>
+						</div> 
+						<div class="col-sm-3">
+							<i class="fa fa-mobile" aria-hidden="true"></i> <a href="sms:8008675309">(800) 867-5309 Text Us</a>
+						</div>
+						<div class="col-sm-3">
+							<i class="fa fa-instagram" aria-hidden="true"></i> <a href="https://www.instagram.com/">  Follow us on Instagram</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!--jQuery, Popper, and Bootstrap Javascript files-->
+			<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+		</div>
+	</body>
+<html>

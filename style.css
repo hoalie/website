@@ -1,0 +1,205 @@
+/*portfolio CSS*/
+
+/*title font*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*table font*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+	font-family: 'sans-serif;';
+	margin: 0;
+	background-color: ghostwhite;
+	display: block;
+
+}
+
+header {
+	background-color: lavenderblush;
+}
+
+h1,h2,h4{
+	font-family: 'sans-serif';
+	text-align: center;
+}
+
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav{
+	font-family: 'raleway';
+	background-color: lavenderblush;
+	border-top: 2px solid lavenderblush;
+	border-bottom: 2px solid lavender;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{ 
+display: inline; 
+} 
+nav a{ 
+text-decoration: none; 
+padding-right: 10px; 
+} 
+
+nav a:link{
+	color: black;
+}
+nav a:visited{
+	color: blueviolet;
+}
+nav a:hover{
+	color: lightslategray;
+}
+nav a:active{
+	color: chocolate;
+}
+
+main{
+	font-family: 'raleway';
+	max-width: 1000px;
+	margin: 20px auto;
+	display: block;
+}
+
+footer{
+	background-color: lavenderblush;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+.resume {
+	margin: 30px auto;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 2px #333333;
+    padding: 30px 5%;
+    max-width: 800px;
+}
+
+form,table{
+	font-family: sans-serif;
+	margin: 0;
+ 	border-collapse:collapse;
+}
+th,td {
+  border: solid #dddddd 2px;
+  padding: 5px 10px;
+  }
+th {
+    background-color: lavenderblush;
+    color: black;
+  }
+}
+
+label {
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+
+}
+input: [type=submit] {
+	display: block;
+	background-color: lavenderblush;
+}
+input[type=reset] {
+	background-color: lightgray;
+	color: black;
+}
+input,textarea {
+	margin-bottom: 1em;
+	display: block;
+	background-color: lightgray;
+}
+
+form{
+	background: #eeeeee;
+	border: 3px solid;
+	padding: 10px;
+	max-width: 254px;
+	margin: 0;
+	display: block;
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.home-photo{
+	float: left;
+	max-width: 100% auto;
+	height: auto;
+	display: block;
+}
+
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+blockquote{
+	display:block;
+	margin: 1em 1em 1em 1em;
+	border-top: black;	
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
